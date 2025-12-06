@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: Groq_App
+Version: 1.0
+Author: Dharmendra
+Requires-Dist: python-dotenv
+Requires-Dist: langchain
+Requires-Dist: langchain-groq
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Dynamic: author
+Dynamic: requires-dist

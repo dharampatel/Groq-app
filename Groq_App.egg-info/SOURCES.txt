@@ -1,0 +1,8 @@
+setup.py
+Groq_App.egg-info/PKG-INFO
+Groq_App.egg-info/SOURCES.txt
+Groq_App.egg-info/dependency_links.txt
+Groq_App.egg-info/requires.txt
+Groq_App.egg-info/top_level.txt
+app/__init__.py
+app/main.py
