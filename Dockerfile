@@ -24,4 +24,4 @@ RUN pip install --no-cache-dir -e .
 EXPOSE 8080
 
 # Run the app
-CMD ["uvicorn", "app.main:app", "--server.port=8080", "--server.address=0.0.0.0","--server.headless=true"]
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
