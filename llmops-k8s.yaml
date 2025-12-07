@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: llmops-container
-        image: groq-app:latest  # Use local image
+        image: groq-app:v2  # Use local image
         imagePullPolicy: IfNotPresent
         ports:
           - containerPort: 8080
